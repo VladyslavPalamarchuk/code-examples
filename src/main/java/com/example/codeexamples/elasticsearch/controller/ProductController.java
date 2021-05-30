@@ -1,8 +1,8 @@
 package com.example.codeexamples.elasticsearch.controller;
 
 import com.example.codeexamples.elasticsearch.exception.ProductNotFoundException;
-import com.example.codeexamples.elasticsearch.service.ProductService;
 import com.example.codeexamples.elasticsearch.model.Product;
+import com.example.codeexamples.elasticsearch.service.ProductService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import javax.validation.Valid;
