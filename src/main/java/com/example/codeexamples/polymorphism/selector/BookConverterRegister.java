@@ -9,11 +9,11 @@ import java.util.Map;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BookConverterSelector {
+public class BookConverterRegister {
 
     private final Map<BookExtensionType, BookConverter<? extends Book, ? extends Book>> typeToConverter;
 
-    public BookConverterSelector(List<BookConverter<? extends Book, ? extends Book>> converters) {
+    public BookConverterRegister(List<BookConverter<? extends Book, ? extends Book>> converters) {
         typeToConverter = new HashMap<>();
 
         for (BookConverter<? extends Book, ? extends Book> bookConverter : converters) {
