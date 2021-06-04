@@ -1,4 +1,4 @@
-package com.example.codeexamples.lazyservice;
+package com.example.codeexamples.lazy.service;
 
 import javax.annotation.PostConstruct;
 import org.springframework.context.annotation.Lazy;

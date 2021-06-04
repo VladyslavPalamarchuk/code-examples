@@ -1,6 +1,5 @@
-package com.example.codeexamples.lazyservice;
+package com.example.codeexamples.lazy.service;
 
-import com.example.codeexamples.elasticsearch.model.Product;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;

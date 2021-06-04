@@ -1,4 +1,4 @@
-package com.example.codeexamples.lazyservice;
+package com.example.codeexamples.lazy.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
