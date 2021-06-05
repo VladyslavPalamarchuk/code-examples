@@ -28,7 +28,8 @@ public class PredatorTest {
     }
 
     @Configuration
-    @ComponentScan(lazyInit = true) // set false to see that all beans will be created in configuration package
+    // set false to see that all beans will be created in configuration package. initLazy=true - will create only bean definitions
+    @ComponentScan(lazyInit = true)
     static class TestConfig {
 
     }
