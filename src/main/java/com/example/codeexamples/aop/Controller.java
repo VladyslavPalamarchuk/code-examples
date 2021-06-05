@@ -1,7 +1,6 @@
-package com.example.codeexamples.lazy.service;
+package com.example.codeexamples.aop;
 
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -10,18 +9,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
-@RequestMapping("lazy/blaster")
-@Api(tags = "Lazy Blaster example API")
+@RequestMapping("/aop")
+@Api(tags = "AOP execution time example API")
 @RestController
-public class TerminatorController {
+public class Controller {
 
     @Autowired
-    private Terminator terminator;
+    private Service service;
 
     @PostMapping
-    @ApiOperation(value = "Kill enemies")
-    public ResponseEntity<String> killEnemies() {
-        terminator.killEnemies();
-        return ResponseEntity.ok("check the logs!");
+    public ResponseEntity<String> test() {
+        service.doWork();
+        return ResponseEntity.ok("See the logs!");
     }
 }

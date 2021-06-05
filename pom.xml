@@ -21,6 +21,8 @@
         <testcontainers.elasticsearch>1.12.2</testcontainers.elasticsearch>
         <testcontainers.testcontainers>1.15.1</testcontainers.testcontainers>
         <testcontainers.junit>1.13.0</testcontainers.junit>
+        <reflection>0.9.12</reflection>
+        <spring.aspect>5.3.7</spring.aspect>
     </properties>
 
     <dependencies>
@@ -96,9 +98,13 @@
         <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
-            <version>0.9.12</version>
+            <version>${reflection}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>${spring.aspect}</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

@@ -1,11 +1,11 @@
-package com.example.codeexamples.polymorphism.selector.controller;
+package com.example.codeexamples.polymorphism.register.controller;
 
-import com.example.codeexamples.polymorphism.selector.dto.BookExtensionType;
-import com.example.codeexamples.polymorphism.selector.model.Book;
-import com.example.codeexamples.polymorphism.selector.model.EpubBook;
-import com.example.codeexamples.polymorphism.selector.model.Fb2Book;
-import com.example.codeexamples.polymorphism.selector.model.PdfBook;
-import com.example.codeexamples.polymorphism.selector.service.BookProcessor;
+import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.register.model.Book;
+import com.example.codeexamples.polymorphism.register.model.EpubBook;
+import com.example.codeexamples.polymorphism.register.model.Fb2Book;
+import com.example.codeexamples.polymorphism.register.model.PdfBook;
+import com.example.codeexamples.polymorphism.register.service.BookProcessor;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RequiredArgsConstructor
-@RequestMapping("/polymorphism/selector/book/convert")
+@RequestMapping("/polymorphism/book/convert")
 @Api(tags = "Polymorphism book selector API")
 @RestController
 public class BookController {

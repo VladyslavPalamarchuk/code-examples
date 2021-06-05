@@ -1,5 +1,6 @@
-package com.example.codeexamples.beanpostprocessorexample;
+package com.example.codeexamples.beanpostprocessorexample.controller;
 
+import com.example.codeexamples.beanpostprocessorexample.MainHandler;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
-@RequestMapping("/handle/bpp")
+@RequestMapping("/bpp/handle")
 @Api(tags = "Handle Bean Post Processor example API")
 @RestController
 public class HandlersController {

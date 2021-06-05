@@ -1,6 +1,6 @@
-package com.example.codeexamples.polymorphism.selector.model;
+package com.example.codeexamples.polymorphism.register.model;
 
-import com.example.codeexamples.polymorphism.selector.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

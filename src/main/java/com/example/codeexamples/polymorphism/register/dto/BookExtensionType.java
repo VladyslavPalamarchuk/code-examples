@@ -1,4 +1,4 @@
-package com.example.codeexamples.polymorphism.selector.dto;
+package com.example.codeexamples.polymorphism.register.dto;
 
 public enum BookExtensionType {
 

@@ -1,8 +1,8 @@
-package com.example.codeexamples.polymorphism.selector.converter;
+package com.example.codeexamples.polymorphism.register.converter;
 
-import com.example.codeexamples.polymorphism.selector.dto.BookExtensionType;
-import com.example.codeexamples.polymorphism.selector.model.Book;
-import com.example.codeexamples.polymorphism.selector.model.EpubBook;
+import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.register.model.Book;
+import com.example.codeexamples.polymorphism.register.model.EpubBook;
 import org.springframework.stereotype.Component;
 
 @Component
