@@ -1,6 +1,6 @@
-package com.example.codeexamples.polymorphism.register.model;
+package com.example.codeexamples.polymorphism.strategy.model;
 
-import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.strategy.dto.BookExtensionType;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,7 +10,7 @@ import lombok.experimental.Accessors;
 @Setter
 @Accessors(chain = true)
 @NoArgsConstructor
-public class Fb2Book implements Book{
+public class PdfBook implements Book{
 
     String text;
 
@@ -21,6 +21,6 @@ public class Fb2Book implements Book{
 
     @Override
     public BookExtensionType getBookExtensionType() {
-        return BookExtensionType.FB2;
+        return BookExtensionType.PDF;
     }
 }

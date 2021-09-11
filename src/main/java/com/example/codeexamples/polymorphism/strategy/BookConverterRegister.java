@@ -1,13 +1,14 @@
-package com.example.codeexamples.polymorphism.register;
+package com.example.codeexamples.polymorphism.strategy;
 
-import com.example.codeexamples.polymorphism.register.converter.BookConverter;
-import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
-import com.example.codeexamples.polymorphism.register.model.Book;
+import com.example.codeexamples.polymorphism.strategy.converter.BookConverter;
+import com.example.codeexamples.polymorphism.strategy.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.strategy.model.Book;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import org.springframework.stereotype.Component;
 
 @Component
 public class BookConverterRegister {

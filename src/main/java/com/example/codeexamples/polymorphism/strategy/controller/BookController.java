@@ -1,11 +1,11 @@
-package com.example.codeexamples.polymorphism.register.controller;
+package com.example.codeexamples.polymorphism.strategy.controller;
 
-import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
-import com.example.codeexamples.polymorphism.register.model.Book;
-import com.example.codeexamples.polymorphism.register.model.EpubBook;
-import com.example.codeexamples.polymorphism.register.model.Fb2Book;
-import com.example.codeexamples.polymorphism.register.model.PdfBook;
-import com.example.codeexamples.polymorphism.register.service.BookProcessor;
+import com.example.codeexamples.polymorphism.strategy.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.strategy.model.Book;
+import com.example.codeexamples.polymorphism.strategy.model.EpubBook;
+import com.example.codeexamples.polymorphism.strategy.model.Fb2Book;
+import com.example.codeexamples.polymorphism.strategy.model.PdfBook;
+import com.example.codeexamples.polymorphism.strategy.service.BookProcessor;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;

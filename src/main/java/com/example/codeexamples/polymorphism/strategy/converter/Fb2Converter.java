@@ -1,8 +1,8 @@
-package com.example.codeexamples.polymorphism.register.converter;
+package com.example.codeexamples.polymorphism.strategy.converter;
 
-import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
-import com.example.codeexamples.polymorphism.register.model.Book;
-import com.example.codeexamples.polymorphism.register.model.Fb2Book;
+import com.example.codeexamples.polymorphism.strategy.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.strategy.model.Book;
+import com.example.codeexamples.polymorphism.strategy.model.Fb2Book;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,8 +1,8 @@
-package com.example.codeexamples.polymorphism.register.service;
+package com.example.codeexamples.polymorphism.strategy.service;
 
-import com.example.codeexamples.polymorphism.register.BookConverterRegister;
-import com.example.codeexamples.polymorphism.register.dto.BookExtensionType;
-import com.example.codeexamples.polymorphism.register.model.Book;
+import com.example.codeexamples.polymorphism.strategy.BookConverterRegister;
+import com.example.codeexamples.polymorphism.strategy.dto.BookExtensionType;
+import com.example.codeexamples.polymorphism.strategy.model.Book;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
